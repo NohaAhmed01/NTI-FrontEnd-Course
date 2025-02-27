@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.enjoy{
+    font-family:  "Amatic SC", serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.watchbtn{
+    text-decoration: none;
+    color: black;
+}
+.watchbtn:hover{
+    color: #DC4C64;
+}
+.watchbtn i{
+    padding: 5px;
+    font-size: 30px;
+}
+.head-body{
+    height: 110vh;
+    width: 100%;
+    background-color: #e8e8ef;
+
+}
+.float-plate{
+    margin-top: 50px;
+    width: 550px;
+    height: 550px;
+    position: relative;
+    animation-name: movePlate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes movePlate {
+    0% {top: 0;}
+    50% {top: 20px;}
+    100% {top: 0;}
+}
+#About span{
+    font-family:  "Amatic SC", serif;
+    font-size: 3rem;
+    
+}
+#About ul{
+    list-style-type: none;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#sec1-img2{
+    width: 550px;
+    height: 375px;
+}
+#sec1-img1{
+    width: 750px;
+    height: 550px;
+}
+#About .textBox{
+    margin-top: 20px;
+    padding: 20px;
+    border: gray solid 5px;
+    text-align: center;
+}
+#About .play{
+  font-size: 90px;
+  color:red;
+  position: relative;
+  bottom: 220px;
+  left: 40%;
+
+}
+.container .div1{
+    background-color: #ce1212;
+    color: white;
+    padding: 25px;
+}
+.container .div2{
+    background-color: white;
+    text-align: center;
+    border: #e8e8ef solid 1px;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .div3{
+    background-color: white;
+    text-align: center;
+    border: #e8e8ef solid 1px;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .div4{
+    background-color: white;
+    text-align: center;
+    border: #e8e8ef solid 1px;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#countingImg{
+    width: 100%;
+    height: 50vh;
+    background-image: url("https://bootstrapmade.com/content/demo/Yummy/assets/img/stats-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+    /* filter: brightness(40%); */
+}
+.counterImgCover{
+    position: absolute;
+    background-color: rgba(22, 21, 21, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.purecounter{
+    color: rgb(255, 255, 255) !important;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+ }
+ #countingImg .col-md-3{
+    margin-top: 100px;
+ }
+#Menu span{
+    font-family:  "Amatic SC", serif;
+    font-size: 3rem;
+}
+#Menu .togglable-tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Menu .togglable-tabs a{
+    color: black;
+    font-size: 18px;
+    border-bottom: grey 2px solid;
+    margin: 3px;
+}
+#Menu .togglable-tabs a:active{
+    border-bottom: #ce1212 2px solid;
+}
+#Menu .togglable-tabs a[tabindex]:focus {
+    border-bottom: #ce1212 2px solid;
+}
+#Menu .container .row .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+#Menu .tab-content img{
+    width: 70%;
+    
+}

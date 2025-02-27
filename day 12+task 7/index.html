@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="m-3">
+        <label for="exampleInputName" class="form-label">Product name:</label>
+        <input type="text" class="form-control" id="exampleInputName">
+      </div>
+      <div class="m-3 ">
+        <label for="exampleInputPrice" class="form-label">Product price:</label>
+        <input type="number" class="form-control" id="exampleInputPrice">
+      </div>
+      <div class="m-3 ">
+        <label for="exampleInputDesc" class="form-label">Product description:</label>
+        <input type="text" class="form-control" id="exampleInputDesc">
+      </div>
+      <button id ="addBtn" type="submit" onclick="addProduct()" class="btn btn-outline-primary m-3 ">add item</button>
+
+
+      <form class="d-flex" role="search">
+        <input class="form-control m-auto w-50 mb-3" onkeyup="searchUp(this.value)" type="search" placeholder="Search" aria-label="Search">
+      </form>
+
+      <table class="table w-75 m-auto">
+        <thead class=" border-bottom border-dark">
+          
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Description</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
+          
+        </thead>
+        <tbody id = "tableBody">
+          
+        </tbody>
+      </table>
+
+
+    <script src="js/index.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

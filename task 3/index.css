@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Poppins", serif;
+}
+.navbar{
+    width: 100%;
+    border-bottom: 2px solid gray;
+    overflow: hidden;
+}
+.logo{
+    width: 33.33%;
+    font-weight: bold;
+    float: left;
+    padding: 15px;
+}
+.list-container{
+    width: 33.33%;
+    float: left;
+}
+li{
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+    
+}
+.clr{
+    clear: both;
+}
+.search{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+}
+#srch{
+    background-color: #e5e4e4;
+    padding: 5px;
+    border-radius: 5px;
+    border-color:transparent;
+}
+.icon{
+    padding: 5px;
+}
+.image{
+    width: 33.33%;
+    float: left;
+}
+.image img{
+    width: 90%;
+}
+#box{
+    border-color: transparent;
+    padding: 5px;
+    border-color:transparent ;
+    border-bottom: 2px solid gray;
+    margin: 17px;
+}
+.input-holder{
+    width: 150px;
+    height: 3px;
+    border-bottom: 2px solid gray;
+}
+.login{
+    width: 60%;
+    margin-top: 90px;
+
+}
+#btn{
+    padding: 8px;
+    background-color: rgb(180, 102, 46);
+    color: white;
+    border-color:transparent ;
+    border-radius: 7px;
+    width: 70px;
+}
+h6{
+    color: rgb(180, 102, 46);
+    float: right;
+    padding: 10px;
+}
+section{
+    overflow: hidden;
+}
+footer{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    height: 215px;
+    padding: 20px;
+}
+.parts{
+    width: 20%;
+    float: left;
+}
+.parts div{
+    color:gray;
+    font-size: small;
+}
+.parts p{
+    font-size: small;
+    padding: 5px;
+}
+#appstore{
+    display: block;
+}
+#qr{
+    float: left;
+    margin: 5px;
+}

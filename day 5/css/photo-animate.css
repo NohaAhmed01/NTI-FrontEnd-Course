@@ -1,0 +1,20 @@
+div{
+    /* background-image: url(images/ak-900-01-500x500\ 1.png); */
+    background-size: cover;
+    /* width: 80%; */
+    height: 90vh;
+    background-position: center center;
+    animation: photo 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes photo {
+    0%{background-image: url(images/ak-900-01-500x500\ 1.png); width: 0; height: 0;}
+    25%{background-image: url(images/Frame\ 611.png); width: 100%; height: 90vh;}
+    50%{background-image: url(images/g27cq4-500x500\ 1.png); width: 0; height: 0;}
+    100%{background-image: url(images/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash\ 1.png); width: 100%; height: 90vh;}
+
+}
+i{
+    color: aquamarine;
+    /* font-size: 90px; */
+}

@@ -1,0 +1,14 @@
+img{
+    width: 20%;
+    position: relative;
+    animation-name: taxi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes taxi {
+    0%{top: 0; left: 0; transform: rotateY(0deg);}
+    50%{top: 0; left: 900px; transform: rotateY(0deg);}
+    51%{top: 0;left: 900px; transform: rotateY(180deg);}
+    100%{top: 0; left: 0;transform: rotateY(180deg);}
+    
+}

@@ -1,0 +1,24 @@
+.menu{
+    margin: auto;
+    margin: 90px;
+    
+}
+.meal{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.meal img{
+    width: 80%;
+    border-radius: 40%;
+}
+.meal p{
+    margin: 20px;
+    color: gray;
+}
+.line{
+    background-color: gray;
+    width: 40%;
+    height: 3px;
+    margin: auto;
+}

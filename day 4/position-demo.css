@@ -1,0 +1,30 @@
+.grand-parent{
+    background-color: black;
+    width: 75%;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    z-index: 2;
+   
+}
+.parent{
+    background-color: cadetblue;
+    width: 75%;
+    height: 200px;
+    position: absolute;
+    top: 120px;
+    bottom: 120px;
+    z-index: 3;
+   
+}
+.child{
+    background-color: blanchedalmond;
+    width: 75%;
+    height: 200px;
+    position: absolute;
+    top: 140px;
+    bottom: 140px;
+    /* z-index: 1; */
+
+}

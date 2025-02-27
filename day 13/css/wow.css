@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    position: relative;
+}
+.img-caption{
+    position: absolute;
+    background-color: burlywood;
+    bottom: 30px;
+    left: 10%;
+    width: 80%;
+    padding: 10px;
+}
+#lightBoxContainer{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(220, 220, 220, 0.4);
+    display: none;                                  /* to be changed to flex in js */
+    justify-content: center; 
+    align-items: center;
+}
+#lightBoxContainer .img-disp{
+    width: 50%;
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    position: relative;
+    color: white;
+    padding: 10px;
+}
+.img-disp #close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

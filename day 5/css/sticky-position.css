@@ -1,0 +1,24 @@
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.navbar div{
+    width: 33.33%;
+    float: left;
+    background-color: burlywood;
+}
+#one{
+    width: inherit;
+    height: 500px;
+    background-color: beige;
+}
+#two{
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+}
+#three{
+    width: 100%;
+    height: 500px;
+    background-color:cadetblue;
+}

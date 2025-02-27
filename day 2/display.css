@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+span{
+    color: burlywood;
+    font-size: 90px;
+}
+.card{
+    background-color: beige;
+    display: inline-block;
+    width: 33.1%;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+}
